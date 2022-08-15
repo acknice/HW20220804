@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM Homework</title>
+        <link href = "style.css" rel = "stylesheet" type = "text/css">
+    </head>
+    <body>
+        <h1>Alec's To-Do List</h1>
+        <br>
+        <h2>Tasks:</h2>
+        <ul id = "task-list">
+            <li id = "sample-task">Add some tasks to get started!</li>
+        </ul>
+        <p>Once a task is completed, click on it to remove it from the list!</p>
+        <br>
+        <h2>Add a New Task:</h2>
+        <label for = "new-task">I need to:</label>
+        <input type = text id = "new-task">
+        <input type = button id = "submit-button" value = "Submit" onclick = addTask()>
+        <script src="scripts.js" charset="utf-8"></script>
+    </body>
+</html>
